@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif; }
+
+h1, h2 {
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 24px; }
+
+h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 24px; }
+
+p, a, li {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 24px; }
+  p:last-child {
+    margin-bottom: 0; }
+
+a {
+  text-decoration: none;
+  color: #bdb78e;
+  border-bottom: 1px solid #dad6bf; }
+  a:hover {
+    border-bottom-color: #b4ad7e; }
+
+ul {
+  list-style: none; }
+
+.intro h1 {
+  color: #a1995e;
+  font-size: 84px;
+  font-weight: 400;
+  text-align: center; }
+.intro h3 {
+  text-align: center; }
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 225px 0; }
+
+.flcl {
+  background-color: #303640; }
+  .flcl .container {
+    padding: 0; }
+
+.champloo {
+  background-color: #1a2026; }
+
+.icons {
+  background-color: #8d837d; }
+  .icons i {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 12px; }
+
+.flcl h2, .flcl p, .flcl li, .champloo h2, .champloo p, .champloo li, .icons h2, .icons p, .icons li {
+  color: white; }
+
+.row {
+  font-size: 0; }
+
+.row > div {
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium; }
+
+.vc > div {
+  vertical-align: middle; }
+
+.col-1-2 {
+  width: 50%; }
+
+.col-1-4 {
+  width: 25%; }
+
+.col-3-4 {
+  width: 75%; }
+
+.fit {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.l-item {
+  padding-bottom: 24px;
+  margin-bottom: 48px;
+  border-bottom: 1px solid #b4ad7e; }
+
+.l-box {
+  padding: 24px 20px; }
+
+.dropcap:first-letter {
+  float: left;
+  color: #b4ad7e;
+  font-size: 72px;
+  line-height: 60px;
+  padding-right: 12px;
+  font-family: "Abril Fatface", cursive; }
+
+.footer {
+  padding: 24px;
+  background-color: #e6e1dc; }
+  .footer p {
+    text-align: center;
+    font-size: 13px;
+    color: #7d7f7e; }
+
+.quote {
+  position: relative; }
+  .quote p {
+    font-size: 24px;
+    font-weight: 300; }
+  .quote:before {
+    content: open-quote;
+    font-family: "Abril Fatface", cursive;
+    font-size: 128px;
+    color: #e3e0cf;
+    position: absolute;
+    left: -50px;
+    top: -20px; }
+
+.onizuka {
+  border: 10px solid #dad6bf;
+  background-color: #f6f5ef; }

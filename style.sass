@@ -1,0 +1,163 @@
+$body-font: 'Open Sans', sans-serif
+$heading-font: 'Abril Fatface', cursive
+$accent-color: #b4ad7e
+
+*
+  margin: 0
+  padding: 0
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+
+body
+  background-color: #fff
+  font-family: $body-font
+
+h1, h2
+  font-family: $heading-font
+  font-weight: 400
+  line-height: 1
+  margin-bottom: 24px
+
+h3, h4, h5, h6
+  font-family: $body-font
+  font-weight: 300
+  line-height: 1.5
+  margin-bottom: 24px
+
+p, a, li
+  font-family: $body-font
+  font-weight: 400
+
+p
+  font-size: 16px
+  line-height: 1.5
+  margin-bottom: 24px
+  &:last-child
+    margin-bottom: 0
+
+a
+  text-decoration: none
+  color: lighten($accent-color, 5%)
+  border-bottom: 1px solid lighten($accent-color, 20%)
+  &:hover
+    border-bottom-color: $accent-color
+
+ul
+  list-style: none
+
+// section
+.intro
+  h1
+    color: darken($accent-color, 10%)
+    font-size: 84px
+    font-weight: 400
+    text-align: center
+  h3
+    text-align: center
+
+// div
+.container
+  width: 960px
+  margin: 0 auto
+  padding: 225px 0
+
+// section
+.flcl
+  background-color: #303640
+  .container
+    padding: 0
+
+// section
+.champloo
+  background-color: #1a2026
+
+.icons
+  background-color: #8d837d
+  i
+    color: #fff
+    font-size: 36px
+    margin-bottom: 12px
+
+// section
+.flcl, .champloo, .icons
+  h2, p, li
+    color: #fff
+
+// div
+.row
+  font-size: 0
+
+// div
+.row > div
+  display: inline-block
+  vertical-align: top
+  font-size: medium
+
+.vc > div
+  vertical-align: middle
+
+// div
+.col-1-2
+  width: 50%
+
+// div
+.col-1-4
+  width: 25%
+
+// div
+.col-3-4
+  width: 75%
+
+// img
+.fit
+  display: block
+  width: 100%
+  height: auto
+
+// div
+.l-item
+  padding-bottom: 24px
+  margin-bottom: 48px
+  border-bottom: 1px solid $accent-color
+
+// div
+.l-box
+  padding: 24px 20px
+
+// p
+.dropcap:first-letter
+  float: left
+  color: $accent-color
+  font-size: 72px
+  line-height: 60px
+  padding-right: 12px
+  font-family: $heading-font
+
+// footer
+.footer
+  padding: 24px
+  background-color: #e6e1dc
+  p
+    text-align: center
+    font-size: 13px
+    color: #7d7f7e
+
+// blockquote
+.quote
+  position: relative
+  p
+    font-size: 24px
+    font-weight: 300
+  &:before
+    content: open-quote
+    font-family: $heading-font
+    font-size: 128px
+    color: lighten($accent-color, 25%)
+    position: absolute
+    left: -50px
+    top: -20px
+
+.onizuka
+  border: 10px solid lighten($accent-color, 20%)
+  background-color: lighten($accent-color, 35%)
