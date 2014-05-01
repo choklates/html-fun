@@ -4,117 +4,96 @@
 
   <meta charset="UTF-8">
   <title>Fun with HTML</title>
-
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:400,300" />
+  
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:400,300">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/style.css">
 
 </head>
 <body>
 
   <section class="intro">
     <div class="container">
-      <h1 class="opening">Fun with HTML</h1>
-      <h3><a href="//youtu.be/mXPeLctgvQI" target="_blank">Alright meow</a>, we&rsquo;re about to HTML ourselves a good time.</h3>
+
+      <!-- heading level 1 with class of opening -->
+      
+      <!-- heading level 3; sibling of heading level 1 -->
+        <!-- link to //youtu.be/mXPeLctgvQI and target of _blank around "Alright meow" and some more text -->
+        
+
     </div>
   </section>
 
   <section class="flcl">
     <div class="container">
       <div class="row vc">
-        <div class="col-1-4">
-          <div class="l-item">
-            <h2>Herpity Derp</h2>
-            <p>Bespoke single-origin coffee PBR vinyl 8-bit, squid twee Cosby sweater VHS wayfarers try-hard.  Organic dreamcatcher forage kitsch swag.  Jean shorts Shoreditch, try-hard paleo vegan drinking vinegar plaid keffiyeh selvage.</p>
-          </div>
-          <div class="l-item">
-            <h2>Merp Yerp</h2>
-            <p>Pork belly McSweeney's mustache narwhal banh mi viral.  Put a bird on it seitan pop-up, single-origin coffee shabby chic +1 PBR Tonx.</p>
-          </div>
-
+        
+        <!-- container with class of col-1-4 -->
+        
+          <!-- container with class of l-item; child of col-1-4 -->
+            <!-- heading level 2; child of l-item -->
+            <!-- paragraph with filler text; sibling of heading level 2 -->
+            
+          <!-- container with class of l-item; sibling of previous l-item -->
+            <!-- heading level 2; child of l-item -->
+            <!-- paragraph with filler text; sibling of heading level 2 -->
+            
+        <!-- container with class of col-3-4; sibling of col-1-4 -->
+          <!-- image with src of /img/flcl.png and class of fit -->
           
-        </div>
-        <div class="col-3-4">
-          <img src="/img/flcl.png" class="fit" alt="FLCL">
-        </div>
+
       </div>
     </div>
   </section>
 
   <section class="champloo">
     <div class="container">
-      <img src="/img/champloo.jpg" class="fit" alt="Samurai Champloo">
-      <div class="row">
-        <div class="col-1-2 l-box">
-          <p class="dropcap">Before they sold out 90's fingerstache put a bird on it pour-over DIY.  Fashion axe Shoreditch Helvetica wolf.  Hoodie Austin polaroid yr vinyl.  Wes Anderson art party paleo hella yr, aesthetic 8-bit VHS retro.  Art party pour-over American Apparel Vice.</p>
-        </div>
-        <div class="col-1-2 l-box">
-          <p>Umami cornhole tousled, gastropub four loko banh mi twee Williamsburg American Apparel keffiyeh synth.  XOXO tofu small batch, scenester tote bag slow-carb skateboard quinoa trust fund mumblecore mlkshk pop-up hashtag squid PBR.</p>
-        </div>
-      </div>
+
+      <!-- image with src of /img/champloo.jpg and class of fit -->
+
+      <!-- container with class of row; sibling of image -->
+        <!-- container with class of col-1-2 and l-box -->
+          <!-- paragraph with filler text and class of dropcap; child of l-box -->
+
+        <!-- container with class of col-1-2 and l-box; sibling of previous l-box -->
+          <!-- paragraph with filler text; child of l-box -->
+          
+
     </div>
   </section>
 
   <section class="icons">
     <div class="container">
       <div class="row">
-        <div class="col-1-4 l-box">
-          <i class="fa fa-calendar"></i>
-          <p>American Apparel organic fap normcore vegan.  Kogi plaid authentic deep v hashtag.  Retro lo-fi quinoa single-origin coffee.</p>
-        </div>
-        <div class="col-1-4 l-box">
-          <i class="fa fa-bug"></i>
-          <p>YOLO hoodie gluten-free, Carles +1 viral organic ennui flannel Neutra DIY ethnic fingerstache mixtape keffiyeh.  </p>
-        </div>
-        <div class="col-1-4 l-box">
-          <i class="fa fa-gavel"></i>
-          <p>Next level mumblecore skateboard actually Blue Bottle meggings.  Vegan Austin kale chips, chia leggings ennui.  </p>
-        </div>
-        <div class="col-1-4 l-box">
-          <i class="fa fa-gamepad"></i>
-          <p>Beard PBR swag, Shoreditch seitan four loko distillery organic Tumblr tofu polaroid Helvetica.</p>
-        </div>
-        <div class="col-1-4 l-box">
-          <i class="fa fa-dashboard"></i>
-          <p>Deep v occupy master cleanse flannel.  Letterpress gentrify pour-over, post-ironic small batch forage.</p>
-        </div>
-        <div class="col-1-4 l-box">
-          <i class="fa fa-key"></i>
-          <p>  Cosby sweater 3 wolf moon mixtape, food truck vegan Marfa High Life next level.  Try-hard forage, fanny pack sriracha.  </p>
-        </div>
-        <div class="col-1-4 l-box">
-          <i class="fa fa-cogs"></i>
-          <p>Carles normcore butcher.  Aesthetic you probably haven't heard of them vegan Etsy Thundercats, ugh Blue Bottle.  </p>
-        </div>
-        <div class="col-1-4 l-box">
-          <i class="fa fa-flask"></i>
-          <p>Brunch ethnic Carles Tonx normcore, occupy vinyl XOXO shabby chic jean shorts.</p>
-        </div>
+
+        <!-- container with class of col-1-4 and l-box (repeat this and its children 8 times) -->
+          <!-- icon (actually italic) with class of fa and fa-* (Google FontAwesome for docs); child of l-box -->
+          <!-- paragraph with filler text; sibling of icon -->
+          
+
       </div>
     </div>
   </section>
 
-  <section class="gto banner">
+  <section class="gto">
     <div class="container">
       <div class="row vc">
-        <div class="col-3-4">
-          <blockquote class="quote l-box">
-            <p>
-              Farm-to-table Truffaut Blue Bottle Helvetica Pinterest flexitarian.  Umami Tonx freegan, pour-over lomo plaid Cosby sweater distillery cray twee hella. 
-            </p>
-          </blockquote>
-        </div>
-        <div class="col-1-4">
-          <img src="/img/onizuka.png" class="fit onizuka" alt="GTO">
-        </div>
+
+        <!-- container with class of col-3-4 -->
+          <!-- blockquote with class of quote and l-box; child of col-3-4 -->
+            <!-- paragraph with filler text; child of blockquote -->
+
+        <!-- container with class of col-1-4; sibling of col-3-4 -->
+          <!-- image with src of /img/onizuka.png and class of fit and onizuka -->
+          
+
       </div>
     </div>
   </section>
 
   <footer class="footer">
-    <p>
-      This page was made with a dash of unicorn farts and <i class="fa fa-heart-o"></i>
-    </p>
+    <p>This page was made with <i class="fa fa-heart-o"></i> and a dash of unicorn farts</p>
   </footer>
 
 </body>
